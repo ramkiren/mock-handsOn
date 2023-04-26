@@ -1,4 +1,4 @@
-package com.ticket.mockito.mock;
+package com.ticket.mock;
 
 public class TicketService  {
 	
@@ -12,5 +12,5 @@ public class TicketService  {
 
 		ticketRepository.save(ticket);
 	}
-	
+	// service layer logics...
 }

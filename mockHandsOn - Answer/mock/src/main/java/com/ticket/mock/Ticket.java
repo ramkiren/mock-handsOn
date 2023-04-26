@@ -1,8 +1,9 @@
-package com.ticket.mockito.mock;
+package com.ticket.mock;
 
 import java.time.LocalDate;
 
 public class Ticket {
+	//getters,setters, constructor etc
 	private String ticketId;
 	private String Priority;
 	private String phone;

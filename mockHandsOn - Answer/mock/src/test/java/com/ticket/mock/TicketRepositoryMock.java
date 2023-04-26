@@ -1,4 +1,5 @@
-package com.ticket.mockito.mock;
+package com.ticket.mock;
+
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
