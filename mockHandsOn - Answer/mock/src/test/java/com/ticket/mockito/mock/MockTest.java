@@ -13,8 +13,8 @@ public class MockTest {
 		TicketRepositoryMock bookRepositoryMock = new TicketRepositoryMock();
 		TicketService ticketService = new TicketService(bookRepositoryMock);
 		
-		Ticket ticket1 = new Ticket("1234", "Mockito In Action", "500", LocalDate.now());
-		Ticket ticket2 = new Ticket("1235", "JUnit 5 In Action", "400", LocalDate.now());
+		Ticket ticket1 = new Ticket("1", "high", "987654321", LocalDate.now());
+		Ticket ticket2 = new Ticket("2", "medium", "9812345621", LocalDate.now());
 		
 		ticketService.addTicket(ticket1);
 		ticketService.addTicket(ticket2);
